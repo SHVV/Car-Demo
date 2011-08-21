@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Car demo</title>
+    <script src="js/math2.js"></script>
+    <script src="js/mat22.js"></script>
+    <script src="js/vec2.js"></script>
+    <script src="js/trans2.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/context_ex.js"></script>
+    <script src="js/game_object.js"></script>
+    <script src="js/controllable_object.js"></script>
+    <script src="js/simple_car.js"></script>
+    <script src="js/arcade_car.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/mechmind.js"></script>
+    <script src="js/base_app.js"></script>
+    <script src="js/application.js"></script>
+  </head>
+<body bgcolor='F0F0F0'>
+  <div style="text-align:center;">
+    <canvas id="canvas" width='1024' height='768'></canvas>
+    <p>
+  	  <select id="selDRIVE">
+  	  	<option value="RWD" selected="selected">RWD</option>
+  	  	<option value="FWD">FWD</option>
+  	  	<option value="AWD">AWD</option>
+  	  </select>
+      <input type="checkbox" checked="checked" id="chABS" onChange="">ABS
+      <input type="checkbox" checked="checked" id="chTCS" onChange="">TCS
+      <input type="checkbox" checked="checked" id="chSTEER" onChange="">Steering control
+    </p>
+    <p id="debug"></p>
+  </div>
+</body>
+</html>
